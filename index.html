@@ -3,14 +3,28 @@
 	<head>
 		<title>Bob's Website</title>
 		<style>
+			.title {
+				text-align: center;
+				color: red;
+				font-family: sans-serif;
+			}
 			.subtitle {
-				font-weight: 700;
 				color: blue;
+			}
+			.youtube-button {
+				margin-left: 140px;
 			}
 		</style>
 	</head>
 	<body>
-		<h1>Bob's Website</h1>
-		<p class="subtitle">I am bob</p>
+		<h1 class="title">Youtube</h1>
+		<p class="subtitle">This is my youtube video &#x2193;</p>
+		<button onclick="youtube()" class="youtube-button">YouTube</button>
+		<script>
+			function youtube() {
+				alert('YOUR COMPUTER HAS BEEN INFECTED WITH A VIRUS\nWE CAN SEE ALL OF YOUR FILES\nCALL +1 (800) 756-789')
+				window.location.href = 'https://geekprank.com/fake-virus/'
+			}
+		</script>
 	</body>
 </html>
